@@ -12,6 +12,17 @@
   width: 264px;
 }
 
+.features-list-item-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-list-item-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .features-list-item-title {
   font-weight: 500;
   font-size: 20px;
