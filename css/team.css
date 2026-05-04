@@ -42,7 +42,6 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -52,7 +51,7 @@
   text-align: center;
 }
 
-.team-list-icon-container {
+.team-icon-list {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -70,14 +69,13 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-list-icon-link:hover {
-  cursor: pointer;
-  background-color: #404bbf;
+.team-list-icon {
+  fill: #f4f4fd;
 }
 
-.team-list-icon {
-  width: 16px;
-  height: 16px;
+.team-list-icon-link:hover .team-list-icon-link:focus {
+  cursor: pointer;
+  background-color: #404bbf;
 }
 
 .team-list-item {
