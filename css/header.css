@@ -43,10 +43,6 @@
   justify-content: space-around;
 }
 
-.nav-item {
-  position: relative;
-}
-
 .nav-link {
   display: block;
   padding: 24px 0 24px;
@@ -58,7 +54,12 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link-features:active::after {
+.nav-link-features {
+  color: #404bbf;
+  position: relative;
+}
+
+.nav-link-features::after {
   content: "";
   position: absolute;
   width: 100%;

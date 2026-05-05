@@ -73,8 +73,12 @@
   fill: #f4f4fd;
 }
 
-.team-list-icon-link:hover .team-list-icon-link:focus {
+.team-list-icon-link:hover {
   cursor: pointer;
+  background-color: #404bbf;
+}
+
+.team-list-icon-link:focus {
   background-color: #404bbf;
 }
 
